@@ -1,0 +1,26 @@
+.section-sale{
+    position: relative;
+    padding: 10rem 0;
+    background-color: $color-black;
+    text-align: center;
+    &__heading-primary{
+        font-size: 10rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: $color-white;
+
+    }
+    &__heading-secondary{
+        font-size: 10rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 80.21px;
+        color: $color-white;
+        }
+        &__background{
+            position: absolute;
+            bottom: 0;
+            right: 10rem;
+            width: 30%;
+        }
+}

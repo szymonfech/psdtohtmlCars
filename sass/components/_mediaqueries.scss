@@ -1,0 +1,137 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 768px) {
+
+    .section-header{
+        &__nav-button{
+            width: 2rem;
+            }
+        
+        &__heading-primary{
+            font-size: 2rem;
+            margin-bottom: 1.5rem
+        }
+        &__heading-secondary{
+            font-size: 2rem;
+            margin-bottom: 1.5rem
+            }
+
+            &__background{
+                width: 70%;
+            }
+    }
+
+
+
+    .section-overview{
+        &__heading-primary{
+        font-size: 3.4rem;
+        }   
+    
+        &__pararaph{
+            font-size: 1.7rem;
+            letter-spacing: 0.3px
+        }
+        &__text-box{
+            width: 80%;
+        }
+        &__background{
+            &--left{
+                width: 45%;
+            }
+            &--right{
+                width: 40%;
+            }
+        }
+    }
+
+
+
+
+    .section-sale{
+       
+        &__heading-primary{
+            font-size: 4rem;
+    
+        }
+        &__heading-secondary{
+            font-size: 4rem;
+            }
+            &__background{
+                position: absolute;
+                bottom: 0;
+                right: 2rem;
+                width: 50%;
+            }
+    }
+
+
+    .section-details{
+        &__heading-primary{
+        font-size: 3.4rem;
+        }   
+    
+        &__pararaph{
+            font-size: 1.7rem;
+            letter-spacing: 0.3px
+        }
+        &__text-box{
+            width: 80%;
+        }
+        
+    }
+
+    
+
+
+    
+.section-price{
+    
+    &__heading-primary{
+        font-size: 4.4rem;
+       
+        
+           
+        }  
+       
+        &__heading{
+            &--top{
+                
+                font-size: 4rem;
+            }
+            &--bottom{
+                
+                font-size: 4rem;
+            }
+        }
+        &__price-info{
+            font-size: 5.5rem;
+        
+        }
+}
+.section-info{
+  
+    &__wrapper{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+}
+.section-footer{
+    
+    font-size: 1.2rem;
+    
+}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

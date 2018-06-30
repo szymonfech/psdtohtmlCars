@@ -1,0 +1,30 @@
+.section-info{
+    padding: 20rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-black;
+    border-bottom: 1px solid $color-white;
+    &__wrapper{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    &__heading{
+        font-weight: 400;
+        font-size: 3.1rem;
+        line-height: 31px;
+        color: #ffffff;
+    }
+    .list-item{
+        font-size: 1.7rem;
+        color: $color-white;
+        list-style: none;
+        margin-bottom: 2rem;
+        span{
+            color: $color-primary
+        }
+    }
+}
